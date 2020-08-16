@@ -1,0 +1,1 @@
+"use strict";var clevel=localStorage.getItem("clev");if(localStorage.getItem("clev")==null){localStorage.setItem("clev", 1);clevel=1;}(function (){document.getElementById("stg").src="./levels/tf/"+clevel+".js";if(typeof lob === 'undefined')document.getElementById("stg").src="./levels/missinglevel.js";return Object.assign(template,lob);})();
